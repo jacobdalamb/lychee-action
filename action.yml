@@ -13,6 +13,10 @@ inputs:
     description: "output file"
     default: "lychee/out.md"
     required: false
+  fail-if-empty:
+    description: "fail entire pipeline if no links were found"
+    default: true
+    required: false
   fail:
     description: "fail entire pipeline on error (exit code not 0)"
     default: false
